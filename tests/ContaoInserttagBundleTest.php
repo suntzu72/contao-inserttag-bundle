@@ -15,7 +15,7 @@ namespace Contao\SkeletonBundle\Tests;
 use Contao\SkeletonBundle\ContentelementInsertagBundle;
 use PHPUnit\Framework\TestCase;
 
-class ContaoInsertagBundleTest extends TestCase
+class ContaoInserttagBundleTest extends TestCase
 {
     public function testCanBeInstantiated(): void
     {

@@ -23,7 +23,7 @@ class Plugin implements BundlePluginInterface
     public function getBundles(ParserInterface $parser)
     {
         return [
-            BundleConfig::create(ContaoInsertagBundle::class)
+            BundleConfig::create(ContaoInserttagBundle::class)
                 ->setLoadAfter([ContaoCoreBundle::class]),
         ];
     }
