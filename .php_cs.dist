@@ -1,7 +1,7 @@
 $header = <<<EOF
 This file is part of Suntzu72 Contao Insertag Bundle.
 
-(c) Acme
+(c) Sunttzu72
 
 @license LGPL-3.0-or-later
 EOF;

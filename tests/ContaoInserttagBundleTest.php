@@ -10,17 +10,17 @@ declare(strict_types=1);
  * @license LGPL-3.0-or-later
  */
 
-namespace Contao\SkeletonBundle\Tests;
+namespace Suntzu72\ContaoInserttagBundle\Tests;
 
-use Contao\SkeletonBundle\ContentelementInsertagBundle;
+use Suntzu72\ContaoInserttagBundle\ContentInsertagBundle;
 use PHPUnit\Framework\TestCase;
 
 class ContaoInserttagBundleTest extends TestCase
 {
     public function testCanBeInstantiated(): void
     {
-        $bundle = new ContentelementInsertagBundle();
+        $bundle = new ContentInsertagBundle();
 
-        $this->assertInstanceOf('Contao\SkeletonBundle\ContentelementInsertagBundle', $bundle);
+        $this->assertInstanceOf('Suntzu72\ContentInsertagBundle\ContentInsertagBundle', $bundle);
     }
 }
