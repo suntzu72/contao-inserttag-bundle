@@ -10,7 +10,7 @@
     </php>
 
     <testsuites>
-        <testsuite name="Suntzu72 Contao Insertag Bundle">
+        <testsuite name="Suntzu72 Contao Inserttag Bundle">
             <directory>./tests</directory>
         </testsuite>
     </testsuites>
